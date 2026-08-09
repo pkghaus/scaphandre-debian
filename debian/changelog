@@ -1,3 +1,15 @@
+scaphandre (1.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Trixie is now stable
+  * Install Rust via rustup on all suites; 1.0.3 needs rustc >= 1.88,
+    Trixie ships 1.85
+  * Declare runtime dependencies via ${shlibs:Depends}; previous packages
+    shipped with none
+  * Update maintainer email
+
+ -- Martin Simon <martin@simon.tf>  Sun, 09 Aug 2026 00:00:00 +0000
+
 scaphandre (1.0.0-1) unstable; urgency=medium
 
   * New upstream release

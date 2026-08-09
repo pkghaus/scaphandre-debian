@@ -1,7 +1,7 @@
 Source: scaphandre
 Section: utils
 Priority: optional
-Maintainer: Martin Simon <me@martinsimon.me>
+Maintainer: Martin Simon <martin@simon.tf>
 Build-Depends:
  cargo:native,
  debhelper (>= 12),
@@ -13,6 +13,9 @@ Homepage: https://github.com/hubblo-org/scaphandre
 
 Package: scaphandre
 Architecture: amd64
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: Electrical power consumption metrology agent.
  Let scaphandre dive and bring back the metrics that will help you make
  your systems and applications more sustainable !
