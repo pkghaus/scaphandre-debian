@@ -28,7 +28,7 @@ To publish a new package version to Github, follow these steps:
 ## License
 
 ```
-Copyright 2021-2024 Martin Simon
+Copyright 2021-2026 Martin Simon
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
