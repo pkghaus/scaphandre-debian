@@ -1,7 +1,7 @@
 Source: scaphandre
 Section: utils
 Priority: optional
-Maintainer: Martin Simon <martin@simon.tf>
+Maintainer: pkg.haus archive <archive@pkg.haus>
 Build-Depends:
  cargo:native,
  debhelper (>= 12),
@@ -12,7 +12,7 @@ Standards-Version: 4.5.0
 Homepage: https://github.com/hubblo-org/scaphandre
 
 Package: scaphandre
-Architecture: amd64
+Architecture: any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
