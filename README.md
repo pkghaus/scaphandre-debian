@@ -24,7 +24,7 @@ tag (`testing` or `unstable`).
 
 * add a new entry in `debian/changelog`
 * update `VERSION` in `package.conf` to the upstream tag
-* create a tag matching the Debian package version (`vX.Y.Z-N`) — CI
+* create a tag matching the Debian package version (`vX.Y.Z-N`) - CI
   validates the build on every suite and architecture; the pkg.haus
   archive ingest builds and publishes it
 
@@ -47,9 +47,9 @@ limitations under the License.
 
 ```
 
-## Buy me a coffee?
+## Buy us a coffee?
 
-If you feel like buying me a coffee (or a beer?), donations are welcome:
+If you feel like buying us a coffee (or a beer?), donations are welcome:
 
 ```
 BTC : bc1qq04jnuqqavpccfptmddqjkg7cuspy3new4sxq9
